@@ -35,8 +35,8 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Vamos tienes un nombre, cierto?",
+                    minlength: "Tu nombre debe consistir de almenos 4 caracteres"
                 },
                 subject: {
                     required: "come on, you have a subject, don't you?",
@@ -47,12 +47,12 @@ $(document).ready(function(){
                     minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "No has puesto tu correo"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
-                }
+                    required: "Debes escribir para que el mensaje sea enviado.",
+                    minlength: "El mensaje es  muy corto, estas seguro?"
+                } 
             },
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
