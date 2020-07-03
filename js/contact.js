@@ -1,9 +1,8 @@
 $(document).ready(function(){
-    
+
     (function($) {
         "use strict";
 
-    
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
     }, "type the correct answer -_-");
@@ -47,12 +46,13 @@ $(document).ready(function(){
                     minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "No has puesto tu correo"
+                    required: "No has puesto tu correo",
+                    email: "Ingrese una dirección de correo válida"
                 },
                 message: {
                     required: "Debes escribir para que el mensaje sea enviado.",
                     minlength: "El mensaje es  muy corto, estas seguro?"
-                } 
+                }
             },
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
@@ -80,6 +80,6 @@ $(document).ready(function(){
             }
         })
     })
-        
+
  })(jQuery)
 })
