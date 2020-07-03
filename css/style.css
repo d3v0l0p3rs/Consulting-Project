@@ -3405,7 +3405,11 @@ h3 {
 
 /* line 163, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .socail_links {
-  margin-top: 47px;
+  margin: auto;
+}
+
+.footer .socail_links ul li {
+  padding-right: 15px;
 }
 
 @media (max-width: 767px) {
