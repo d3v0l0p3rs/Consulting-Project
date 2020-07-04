@@ -7326,3 +7326,15 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+p.main_text{
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 300;
+  line-height: 76px;
+  margin-bottom: 15px;
+  color: #fff;
+}
