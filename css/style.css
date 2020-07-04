@@ -1327,7 +1327,7 @@ h3 {
   height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 70% 70%;
 }
 
 @media (max-width: 767px) {
