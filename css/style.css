@@ -1327,7 +1327,7 @@ h3 {
   height: 750px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 70% 70%;
 }
 
 @media (max-width: 767px) {
@@ -1620,7 +1620,7 @@ h3 {
 /* line 95, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_counter.scss */
 .case_study_area .owl-carousel .owl-nav div {
   border: 1px solid #E3E3E3;
-  color: #DDDBDB;
+  color: #2c2c2c;
   left: -70px;
 }
 
